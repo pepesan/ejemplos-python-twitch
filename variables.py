@@ -1,10 +1,15 @@
+from xml.dom.minidom import ProcessingInstruction
+
 if __name__ == '__main__':
     print("Ejemplos de variables")
+    print("Booleanos")
     # Declaración e inicilización de variable
     # boolean: True, False, None
     booleana = True
     # imprimir por pantalla variable
     print(booleana)
+
+    print("Números Enteros")
     # Declaración de variable entera
     # enteros: numero naturales, positivos o negativos
     entero = 2
@@ -18,3 +23,28 @@ if __name__ == '__main__':
     numero = 2
     # imprimir por pantalla variable
     print(numero)
+
+    print("Números flotantes")
+    # Declaración de variables de coma flotante
+    flotante = +1.23
+    # imprimir por pantalla variable
+    print(flotante)
+    # valor negativo
+    flotante = -1.23
+    # imprimir por pantalla variable
+    print(flotante)
+    # casting de entero a flotante
+    entero = 2
+    flotante = float(entero)
+    # imprimir por pantalla variable
+    print(flotante)
+    # casting de flotante a entero
+    entero = int(flotante)
+    print(entero)
+
+    # Números complejos
+    print("Números complejos")
+    # definimos parte real y parte imaginaria
+    complejo = complex(2, 1)
+    print(complejo)
+
