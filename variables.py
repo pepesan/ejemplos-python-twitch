@@ -43,8 +43,13 @@ if __name__ == '__main__':
     print(entero)
 
     # Números complejos
+    # Ref: https://es.wikipedia.org/wiki/N%C3%BAmero_complejo
     print("Números complejos")
     # definimos parte real y parte imaginaria
+    # i = raiz cuadrada de -1
+    # usado en cálculos matemáticos complejos
+    # z = r + b*i
     complejo = complex(2, 1)
     print(complejo)
+
 
